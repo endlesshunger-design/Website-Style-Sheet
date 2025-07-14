@@ -1,10 +1,599 @@
 body{
   background-color: f1f1f1;
-  padding: 0px 10px;
+  padding: 0px 50px;
   
 }
 
 header{
   border-bottom: 1px solid black;
   width: 100%;
+}
+
+.hero{
+  display:flex;
+  padding-top: 170px;
+  align-items: last baseline;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+h1{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 90px;
+}
+
+h2{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.category{
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.subcategory{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  font-size: 30px;
+  color: #e95a45;
+}
+
+.ipsum-text{
+  padding-bottom: 20px;
+}
+
+.outfit-font{
+  font-family: "Outfit", sans-serif;
+}
+
+.sub-subcategory{
+  padding-top: 40px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  font-size: 30px;
+  border-top: 0.5px solid gray;
+  color: #e95a45;
+}
+
+.numbers-top{
+  font-weight: 400;
+  font-size: 85px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.numbers{
+  font-weight: 400;
+  font-size: 75px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "light 600";
+  font-style: normal;
+  font-size: 25px;
+}
+
+.subtitle{
+  text-align: right;
+  padding-left: 300px;
+}
+
+.subhead{
+  margin: 0;
+}
+
+.title{
+  font-weight: "regular 400";
+  font-size: 100px;
+  line-height: 1;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolright{
+  text-align: right;
+  align-items: right;
+}
+
+.flexbox-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexbox-secondary-center{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.colorbox {
+  margin: 40px;
+  min-height: 400px;
+  width: 25%;
+  text-align: center;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 10%, 100% 100%, 80% 100%, 20% 100%, 0 90%, 0 0);
+}
+
+.colorbox-secondary {
+  margin: 40px;
+  min-height: 275px;
+  width: 19%;
+  text-align: center;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 23%, 100% 100%, 80% 100%, 20% 100%, 0 76%, 0 0);
+}
+
+#sub{
+  margin-top: 80px;
+}
+
+#rallye-red {
+  background-color: #e95a45;
+  color: #93332a;
+}
+
+#shadow-black{
+  background-color: #101010;
+  color: #d6d6d6;
+}
+
+#off-white{
+  background-color: #f1f1f1;
+  color: #898989;
+}
+
+#orange{
+  background-color: #fd8507;
+  color: #c17530;
+}
+
+#emerald-green{
+  background-color: #71cfa3;
+  color: #448e68;
+}
+
+#sky-blue{
+  background-color: #baeeff;
+  color: #003ed2;
+}
+
+#royal-purple{
+  background-color: #bb85f9;
+  color: #7e4dc4;
+}
+
+.color-label{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 300px;
+  padding-right: 40px;
+  text-align: right;
+}
+
+.color-hex{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.color-label-secondary{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  padding-top: 100px;
+  padding-right: 20px;
+  text-align: right;
+  margin: 0;
+}
+
+.color-hex-secondary{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.lead-line{
+   width:100%; height:1px; background: #101010; 
+   margin-top: 40px;
+}
+
+.font-title-inter{
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+}
+
+
+/* container */
+
+.two-columns-grid {
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 70px;
+}
+
+/* columns */
+.two-columns-grid > * {
+  width: 50%;
+  padding:1rem;
+}
+
+.ipsum-text {
+  line-height: 1.75;
+}
+
+.text-title-light{
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.text-weight-light{
+  font-weight: 300;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.text-title-regular{
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.text-weight-regular{
+  font-weight: normal;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.text-title-italic{
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.text-weight-italic{
+  font-style: italic;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.text-title-semi-bold{
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.text-weight-semi-bold{
+  font-weight: 600;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.text-title-bold{
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.text-weight-bold{
+  font-weight: bold;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+/*Outfit Font*/
+
+.font-title-outfit{
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+}
+
+
+.outfit-title-light{
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.outfit-weight-light{
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.outfit-title-regular{
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.outfit-weight-regular{
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.outfit-title-italic{
+  font-family: "Outfit", sans-serif;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.outfit-weight-italic{
+  font-family: "Outfit", sans-serif;
+  font-style: italic;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.outfit-title-semi-bold{
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.outfit-weight-semi-bold{
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.outfit-title-bold{
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.outfit-weight-bold{
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.ipsum-text-outfit {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.75;
+}
+
+.numbers-top-outfit{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 85px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.numbers-outfit{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+/*Open Font*/
+
+.font-title-open{
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+}
+
+
+.open-title-light{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.open-weight-light{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.open-title-regular{
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.open-weight-regular{
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.open-title-italic{
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.open-weight-italic{
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.open-title-semi-bold{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.open-weight-semi-bold{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.open-title-bold{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.open-weight-bold{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid gray;
+}
+
+.ipsum-text-open {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.75;
+}
+
+.numbers-top-open{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 85px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.numbers-open{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.cat{
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.pronunciation{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #e95a45;
+  margin: 0;
+}
+
+.define{
+  font-family: "Open Sans", sans-serif;
+  font-family: 400;
+  font-size: 25px;
+}
+
+.hiearachy{
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* button */
+.button-3 {
+  appearance: none;
+  background-color: #101010;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #101010;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #5c5c5c;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #252625;
+  box-shadow: rgba(39, 39, 39, 0.2) 0 1px 0 inset;
+}
+
+.footer{
+  background-color: #101010;
+  height: 200px;
+  margin-top: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
 }
