@@ -3,30 +3,169 @@
 
 <head>
   <title>Website Design System</title>
-  <link href="endlesshunger-design/Website-Style-Sheet/style.css" rel="stylesheet" type="text/css">
+  <link href="/Users/ronnykim/Documents/Website-Design-System/Website-Style-Sheet-main/style.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="header">
-    <header>Website Design System</header>
-    <p>Codecademy Assignment to create a design system for a personal portfolio website</p>
+  <div class="toolbar">
+    <div class="toolleft"><h3>Made By: Endless Hunger Design</h3></div>
+    <div class="toolright"><h3 class="toolright">est: 2025</h3></div>
+  </div>
+  <div class="hero">
+    <h1 class="title">Website Design System</h1>
+    <p class="subtitle">Codecademy Assignment to create a design system for a personal portfolio website</p>
   </div>
 
   <section>
-    <h1>Colors</h1>
+    <h2 class="category">Colors</h2>
+    <h3 class="subcategory">Primary Site Colors</h3>
+    <div class="flexbox-center">
+      <div class= "colorbox" id="rallye-red">
+        <p class="color-hex">Hex: e95a45</p>
+        <p class="color-label">Rallye Red</p>
+      </div>
+      <div class= "colorbox" id="shadow-black">
+        <p class="color-hex">Hex: 101010</p>
+        <p class="color-label">Shadow Black</p>
+      </div>
+      <div class= "colorbox" id="off-white">
+        <p class="color-hex">Hex: f1f1f1</p>
+        <p class="color-label">Off-White</p>
+      </div>
+    </div>
   </section>
   <section>
-    <h1>Typography</h1>
+    <h3 class="subcategory" id="sub">Secondary Site Colors</h3>
+    <div class="flexbox-secondary-center">
+      <div class= "colorbox-secondary" id="orange">
+        <p class="color-hex-secondary">Hex: fd8507</p>
+        <p class="color-label-secondary">Orange</p>
+      </div>
+      <div class= "colorbox-secondary" id="emerald-green">
+        <p class="color-hex-secondary">Hex: 71cfa3</p>
+        <p class="color-label-secondary">Emerald Green</p>
+      </div>
+      <div class= "colorbox-secondary" id="sky-blue">
+        <p class="color-hex-secondary">Hex: baeeff</p>
+        <p class="color-label-secondary">Sky Blue</p>
+      </div>
+      <div class= "colorbox-secondary" id="royal-purple">
+        <p class="color-hex-secondary">Hex: bb85f9</p>
+        <p class="color-label-secondary">Royal Purple</p>
+      </div>
+    </div>
+  </section>
+  <div class="lead-line"></div>
+  <section>
+    <h2 class="category">Typography</h2>
+    <p class="font-title-outfit">Outfit</p>
+    <!--<p class="subhead">Primarily Used for the main body font. The different weights will assist in determining the emphasis or highlight of the information.</p>-->
+    <div class="two-columns-grid">
+      <div>
+            <h3 class="subcategory">Title Font</h3>
+            <p class="outfit-title-light">Light</p>
+            <p class="outfit-weight-light">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+            <p class="outfit-title-regular">Regular</p>
+            <p class="outfit-weight-regular">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+            <p class="outfit-title-italic">Italic</p>
+            <p class="outfit-weight-italic">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+            <p class="outfit-title-semi-bold">Semi-Bold</p>
+            <p class="outfit-weight-semi-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+            <p class="outfit-title-bold">Bold</p>
+            <p class="outfit-weight-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+      </div>
+      <div>
+        <h3 class="subcategory">Ipsum Text</h3>
+          <p class="ipsum-text-outfit">"The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. Life is what you make it, so let’s make it. They don’t want us to win. Look at the sunset, life is amazing, life is beautiful, life is what you make it. Don’t ever play yourself. Hammock talk come soon. Special cloth alert. Learning is cool, but knowing is better, and I know the key to success. Eliptical talk. Let’s see what Chef Dee got that they don’t want us to eat. Give thanks to the most high. Give thanks to the most high."</p>
+          <p class="ipsum-text-outfit">- DJ Kahlid</p>
+          <h3 class="sub-subcategory">Numbers / Characters</h3>
+          <p class="numbers-top-outfit">1234567890</p>
+          <p class="numbers-outfit">!@#$%^&*()</p>
+        </div>
+    </div>
+  </div>
+
+<!--Second Font Class-->
+  <p class="font-title-inter">Inter</p>
+  <!--<p class="subhead">Primarily Used for the main body font. The different weights will assist in determining the emphasis or highlight of the information.</p>-->
+  <div class="two-columns-grid">
+    <div>
+          <h3 class="subcategory">Subtitle Font</h3>
+          <p class="text-title-light">Light</p>
+          <p class="text-weight-light">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+          <p class="text-title-regular">Regular</p>
+          <p class="text-weight-regular">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+          <p class="text-title-italic">Italic</p>
+          <p class="text-weight-italic">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+          <p class="text-title-semi-bold">Semi-Bold</p>
+          <p class="text-weight-semi-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+          <p class="text-title-bold">Bold</p>
+          <p class="text-weight-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+    </div>
+    <div>
+      <h3 class="subcategory">Ipsum Text</h3>
+        <p class="ipsum-text">"The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. Life is what you make it, so let’s make it. They don’t want us to win. Look at the sunset, life is amazing, life is beautiful, life is what you make it. Don’t ever play yourself. Hammock talk come soon. Special cloth alert. Learning is cool, but knowing is better, and I know the key to success. Eliptical talk. Let’s see what Chef Dee got that they don’t want us to eat. Give thanks to the most high. Give thanks to the most high."</p>
+        <p class="ipsum-text">- DJ Kahlid</p>
+        <h3 class="sub-subcategory">Numbers / Characters</h3>
+        <p class="numbers-top">1234567890</p>
+        <p class="numbers">!@#$%^&*()</p>
+      </div>
+  </div>
+</div>
+
+<!--Third Font Class-->
+<p class="font-title-open">Open Sans</p>
+<!--<p class="subhead">Primarily Used for the main body font. The different weights will assist in determining the emphasis or highlight of the information.</p>-->
+<div class="two-columns-grid">
+  <div>
+        <h3 class="subcategory">Body Font</h3>
+        <p class="open-title-light">Light</p>
+        <p class="open-weight-light">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        <p class="open-title-regular">Regular</p>
+        <p class="open-weight-regular">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        <p class="open-title-italic">Italic</p>
+        <p class="open-weight-italic">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        <p class="open-title-semi-bold">Semi-Bold</p>
+        <p class="open-weight-semi-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+        <p class="open-title-bold">Bold</p>
+        <p class="open-weight-bold">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</p>
+  </div>
+  <div>
+    <h3 class="subcategory">Ipsum Text</h3>
+      <p class="ipsum-text-open">"The first of the month is coming, we have to get money, we have no choice. It cost money to eat and they don’t want you to eat. Life is what you make it, so let’s make it. They don’t want us to win. Look at the sunset, life is amazing, life is beautiful, life is what you make it. Don’t ever play yourself. Hammock talk come soon. Special cloth alert. Learning is cool, but knowing is better, and I know the key to success. Eliptical talk. Let’s see what Chef Dee got that they don’t want us to eat. Give thanks to the most high. Give thanks to the most high."</p>
+      <p class="ipsum-text-open">- DJ Kahlid</p>
+      <h3 class="sub-subcategory">Numbers / Characters</h3>
+      <p class="numbers-top-open">1234567890</p>
+      <p class="numbers-open">!@#$%^&*()</p>
+    </div>
+</div>
+</div>
+  </section>
+  <section class="hiearachy">
+    <h2 class="category">Hiearachy Use Case</h2>
+    <div class="two-columns-grid">
+      <div><h3 class="cat">H1 Header: Outfit at 60px</h3>
+      <p class="pronunciation">H2 Sub-head: Inter at 40px</p>
+      <p class="define">P Tag: Open Sans at 25px</p>
+    </div>
+    <div><h3 class="cat">Cat</h3>
+      <p class="pronunciation">/kat/</p>
+      <p class="define">A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed.</p>
+    </div>
+  </div>  
   </section>
   <section>
-    <h1>Buttons</h1>
+    <h2 class="category">Buttons</h2>
+    <!-- HTML !-->
+<button class="button-3" role="button">Main Button</button>
   </section>
-  <section>
-    <h1>Shapes</h1>
-  </section>
+<footer>
+  <div class="footer">
+  </div>
+</footer>
 
 </body>
 </html>
